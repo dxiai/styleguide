@@ -13,7 +13,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [link other page](other_index.md) add some more information.
 
-This page is a markdown tutorial, because we need it for testing. 
+This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 
 ### Markdown
 
