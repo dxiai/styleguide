@@ -21,7 +21,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 > A simple quote
 
->{:.notification.is-primary} a quote as a warning. This would be awesome. This is not really working for us :(
+{:.notification.is-primary} a quote as a warning. This would be awesome. This is not really working for us :( This quote should be handled correctly
 
 ```markdown
 Syntax highlighted code block
