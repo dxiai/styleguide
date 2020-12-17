@@ -1,6 +1,6 @@
 ---
 hero_height: is-large
-show_navigation: false
+hide_navigation: true
 ---
 
 ## DXI TESTING
