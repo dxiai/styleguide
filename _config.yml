@@ -1,3 +1,5 @@
 remote_theme: dxiai/dxiai-theme
 
 title: dxi.ai
+baseurl: https://www.dxi.ai/tmppages
+favicon: https://www.dxi.ai/assets/img/icons/favicon.ico?v=qA3OXqyw77
