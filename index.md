@@ -21,7 +21,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 > A simple quote
 
->{: alert alert-warning} a quote as a warning. This would be awesome. This is not really working for us :(
+>{: .alert.alert-warning} a quote as a warning. This would be awesome. This is not really working for us :(
 
 ```markdown
 Syntax highlighted code block
