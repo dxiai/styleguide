@@ -39,4 +39,4 @@ Moodle folks support `markdown=1` but not `markdown="1"`. Moodle will then start
 
 We can have special Buttons directly in markdown: 
 
-[Back to Home](https://www.dxi.ai/tmppages/){: .alert.alert-success}
+[Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
