@@ -15,7 +15,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [link other page](other_index.md){: .btn.btn-primary}
 
-add some more information.
+add some more information.{: .alert.alert-warning}
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 
