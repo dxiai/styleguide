@@ -37,7 +37,7 @@ Do we support mathjax on dxi.ai?
 
 $$
 
-\sum_{1}^{n}{foo_n}
+\sum_{i=1}^{n}{foo_n}
 
 $$
 
