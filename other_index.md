@@ -1,6 +1,9 @@
 ---
+title: The Ordinary
 hide_hero: true
 ---
+
+A teaser text can be included at the top. 
 
 # This is an ordinary page
 
@@ -12,9 +15,17 @@ This page should get immediately updated. More or less at least
 
 It seems that some information has been restricted from a sass bug. Stupidly pg paged did not report such error. 
 
+The following chunk checks the different types of links and information that we have in our Moodle content, so we can move it into github as soon as we can. 
+
+- Alerts are used to highlight sections of contents, where primary stands for definitions, info general highlights, warning potential elements of errors, danger points to misuse. Success stands for best practices. 
+
+- Buttons are used for linking resources. Success means other pages, primary means data. 
+
 <p class="alert alert-warning">hello warning</p>
 
-i wonder whether the error appears in the class definition of the html code above.
+<p class="btn btn-prinary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
 
-the problem was in the theme. if the theme is not ok then deployments will not work.
+I wonder whether the error appears in the class definition of the html code above.
+
+The problem was in the theme. if the theme is not ok then deployments will not work.
 
