@@ -24,13 +24,15 @@ Each blog post should include a preamble:
 ---
 layout: post
 title:  Title of the blog
-categories: development test
+categories: 
+- development
+- test
 ---
 ```
 
 Posts without this preamble will receive a notification. 
 
-Categories MUST be space separated. 
+Categories MUST be a YAML list.
 
 ## Projects
 
