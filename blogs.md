@@ -3,7 +3,11 @@ hide_hero: true
 # callouts: callouts
 ---
 
-## Blogs and Pages
+## Pages
+
+A page is a fixed page that contains static information. 
+
+## Blog Posts
 
 The web-site has two main content types: 
 
@@ -12,7 +16,21 @@ The web-site has two main content types:
 
 New videos should be included as blog entries.
 
-All blog entries must be filed under _posts and have the following filename: `YYYY-MM-DD-author.md`. If you have more than one blog posts
+All blog entries must be filed under _posts and have the following filename: `YYYY-MM-DD-author.md`. If you have more than one blog post per day number the blog post. 
+
+Each blog post should include a preamble: 
+
+```
+---
+layout: post
+title:  Title of the blog
+categories: development test
+---
+```
+
+Posts without this preamble will receive a notification. 
+
+Categories MUST be space separated. 
 
 ## Projects
 
