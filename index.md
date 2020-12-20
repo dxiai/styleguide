@@ -21,7 +21,7 @@ This page is a markdown tutorial, because we need it for testing. It happens tha
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
->[!Warning] A simple quote
+> A simple quote
 
 <p class="notification is-primary"> a quote as a warning. This would be awesome. This is not really working for us :( This quote *should* be handled correctly</p>
 
