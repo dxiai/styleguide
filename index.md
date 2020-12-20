@@ -13,7 +13,9 @@ You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[link other page](other_index.md) add some more information.
+[link other page](other_index.md){: .btn.btn-primary}
+
+add some more information.
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 
