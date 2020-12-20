@@ -24,7 +24,7 @@ The following chunk checks the different types of links and information that we 
 <p class="alert alert-warning">hello warning</p>
 
 
-<p class="alert alert-warning" markdown=1> 
+<p class="alert alert-info" markdown=1> 
 
 a quote as a warning. This would be awesome. This is not really working for us :( This quote *should* be handled correctly. this is achieved by the `markdown=1` attribute, which surprisingly also works in moodle!
 
@@ -32,13 +32,11 @@ a quote as a warning. This would be awesome. This is not really working for us :
 
 Moodle folks support `markdown=1` but not `markdown="1"`. Moodle will then start rendering a Page or text field in a way that it is no longer useful. Jupyter Notebooks don't support mixing HTML and inline markdown at all. GitHub has its own way of mixing markdown inside HTML tags. However, this approach is **only** supported by GH, but not even on github pages. On the other hand, github markdown no longer supports bootstrap css classes. 
 
-
 # Buttons
 
 <p class="btn btn-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
 <p class="button is-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
 
-I wonder whether the error appears in the class definition of the html code above.
+We can have special Buttons directly in markdown: 
 
-The problem was in the theme. if the theme is not ok then deployments will not work.
-
+[Back to Home](https://www.dxi.ai/tmppages/){: .alert.alert-success}
