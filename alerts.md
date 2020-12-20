@@ -46,4 +46,4 @@ Out theme uses fontawesome 5 or 6.
 
 We can have special Buttons directly in markdown:
 
-[<i class="fa fa-lf fa-home"/> &nbsp; Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fas fa-home"/> &nbsp; Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}

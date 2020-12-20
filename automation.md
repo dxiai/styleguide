@@ -9,3 +9,5 @@ ALso automated scripts MUST trigger pull requests to the homepage. If all tests 
 # Publishing and Automation
 
 Site authors should always create a new branch for changes to the repository. Changes in the theme MUST get suggested and then submitted to the theme. 
+
+[<i class="fas fa-home"/> &nbsp; Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
