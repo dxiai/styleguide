@@ -19,7 +19,7 @@ The following chunk checks the different types of links and information that we 
 
 - Alerts are used to highlight sections of contents, where primary stands for definitions, info general highlights, warning potential elements of errors, danger points to misuse. Success stands for best practices. 
 
-- Buttons are used for linking resources. Success means other pages, primary means data. 
+- Buttons are used for linking resources. Success means other pages, primary means data. The file icon indicates an internal link, the download icon is used with data, and the link, or export icon is used with external links.
 
 <p class="alert alert-warning">hello warning</p>
 
