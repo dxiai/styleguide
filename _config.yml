@@ -6,14 +6,6 @@ title: dxi.ai
 paginate: 5
 paginate_path: "/blog/page:num"
 
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-
 exclude: 
   - Gemfile
   - clean-theme.gemspec
@@ -23,5 +15,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-livereload: true
