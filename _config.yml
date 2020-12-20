@@ -1,5 +1,5 @@
-theme: cayman
+# theme: cayman
 
-# remote_theme: dxiai/dxiai-theme
+remote_theme: dxiai/dxiai-theme
 
 title: dxi.ai
