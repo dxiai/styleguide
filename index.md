@@ -2,7 +2,6 @@
 title: DxI Styleguide
 hero_height: is-large
 hide_navigation: false
-hero_darken: true
 ---
 
 ## Introduction
