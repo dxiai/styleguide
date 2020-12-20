@@ -1,11 +1,11 @@
 ---
-title: The Ordinary
+title: Alerts and Buttons
 hide_hero: true
 ---
 
 A teaser text can be included at the top. 
 
-# This is an ordinary page
+# Alerts
 
 This page should have a header but no hero information
 
@@ -22,6 +22,18 @@ The following chunk checks the different types of links and information that we 
 - Buttons are used for linking resources. Success means other pages, primary means data. The file icon indicates an internal link, the download icon is used with data, and the link, or export icon is used with external links.
 
 <p class="alert alert-warning">hello warning</p>
+
+
+<p class="alert alert-warning" markdown=1> 
+
+a quote as a warning. This would be awesome. This is not really working for us :( This quote *should* be handled correctly. this is achieved by the `markdown=1` attribute, which surprisingly also works in moodle!
+
+</p>
+
+Moodle folks support `markdown=1` but not `markdown="1"`. Moodle will then start rendering a Page or text field in a way that it is no longer useful. Jupyter Notebooks don't support mixing HTML and inline markdown at all. GitHub has its own way of mixing markdown inside HTML tags. However, this approach is **only** supported by GH, but not even on github pages. On the other hand, github markdown no longer supports bootstrap css classes. 
+
+
+# Buttons
 
 <p class="btn btn-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
 <p class="button is-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
