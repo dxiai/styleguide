@@ -6,21 +6,16 @@ hide_navigation: false
 
 ## Introduction
 
-This should be a bulma style page... not sure why it does not show.
-
-You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. However, this theme does not use github markdown. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Web-pages are more complex than normal documentation on github, there are a few tweaks available: 
+
 [Alerts and Buttons](alerts.md){: .btn.btn-primary}
-
 [Formula](mathjax.md){: .btn.btn-primary}
-
 [Blogs and Pages](blogs.md){: .btn.btn-primary}
-
 [Automation](automation.md){: .btn.btn-primary}
-
-Note that css attribute work only with links. However, we should not use them, because moodle markdown does not render them, just like github markdown. having such links is only useful for resources that are confied to a page. 
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 

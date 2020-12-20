@@ -10,7 +10,9 @@ The web-site has two main content types:
 - Pages
 - Blog entries
 
-New videos should be included as blog entries. 
+New videos should be included as blog entries.
+
+All blog entries must be filed under _posts and have the following filename: `YYYY-MM-DD-author.md`. If you have more than one blog posts
 
 ## Projects
 
