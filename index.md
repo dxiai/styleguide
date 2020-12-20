@@ -41,7 +41,7 @@ $$
 
 $$
 
-No mathjax support in our theme. This needs fixing the theme to include the mathjax cdn.
+No mathjax support in our theme. This needs fixing the theme to include the mathjax cdn. while mathJax is supported, it needs some fixing to get the layout correct. right now the css seems to interfere with lowered indeces and markup. 
 
 ```markdown
 Syntax highlighted code block
