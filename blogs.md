@@ -1,6 +1,6 @@
 ---
 hide_hero: true
-callouts: callouts
+# callouts: callouts
 ---
 
 ## Blogs and Pages
