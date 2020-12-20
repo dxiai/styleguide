@@ -1,5 +1,5 @@
 ---
-title: DxI Temporary Pages
+title: DxI Styleguide
 hero_height: is-large
 hide_navigation: true
 hero_darken: true
@@ -16,6 +16,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 [Alters and Buttons](alerts.md){: .btn.btn-primary}
 
 [Formula](mathjax.md){: .btn.btn-primary}
+
+[Blogs and Pages](blogs.md){: .btn.btn-primary}
+
+[Automation](automation.md){: .btn.btn-primary}
 
 Note that css attribute work only with links. However, we should not use them, because moodle markdown does not render them, just like github markdown. having such links is only useful for resources that are confied to a page. 
 
