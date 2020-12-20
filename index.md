@@ -23,7 +23,7 @@ This page is a markdown tutorial, because we need it for testing. It happens tha
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-> A simple quote, which does not work in moodle.
+> A simple quote, which does not work in moodle. 
 
 <p class="alert alert-warning" markdown=1> 
 
@@ -31,6 +31,15 @@ a quote as a warning. This would be awesome. This is not really working for us :
 
 </p>
 
+Moodle folks support `markdown=1` but not `markdown="1"`. Moodle will then start rendering a Page or text field in a way that it is no longer useful. Jupyter Notebooks don't support mixing HTML and inline markdown at all. GitHub has its own way of mixing markdown inside HTML tags. However, this approach is **only** supported by GH, but not even on github pages. On the other hand, github markdown no longer supports bootstrap css classes. 
+
+Do we support mathjax on dxi.ai?
+
+$$
+
+\sum_{1}^{n}{foo_n}
+
+$$
 ```markdown
 Syntax highlighted code block
 
