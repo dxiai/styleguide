@@ -38,11 +38,11 @@ We use buttons to highlight important links, such as pointers to subchapters.
 
 Moodle uses fontawesome 4.
 
-<p class="btn btn-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
+<p class="btn btn-primary"><i class="fa fa-file-o"></i> This should be a button</p>
 
 Out theme uses fontawesome 5 or 6.
 
-<p class="button is-primary"><i class="fa fa-lg fa-file"></i> This should be a button</p>
+<p class="button is-primary"><i class="fa fa-file"></i> This should be a button</p>
 
 We can have special Buttons directly in markdown as shown below. It is important to remember that **Moodle** does not allow such trickery. Thus, we can use only the above strategy for course material.
 
