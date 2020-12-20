@@ -5,7 +5,7 @@ hide_hero: true
 
 ## Pages
 
-A page is a fixed page that contains static information. Pages are used for generic information. The server also as landing pages. 
+A page is a fixed page that contains static information. Pages are used for generic information. They serve also as landing pages for project categories. 
 
 ## Blog Posts
 
