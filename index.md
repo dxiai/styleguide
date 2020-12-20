@@ -15,7 +15,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [link other page](other_index.md){: .btn.btn-primary}
 
-{: .alert.alert-warning} add some more information. 
+Note that just like in moodle, css attribute work only with links.
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 
