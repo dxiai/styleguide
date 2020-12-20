@@ -24,7 +24,7 @@ Each blog post should include a preamble:
 ---
 layout: post
 title:  Title of the blog
-categories: 
+tags: 
 - development
 - test
 ---
