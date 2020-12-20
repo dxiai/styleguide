@@ -16,4 +16,5 @@ It seems that some information has been restricted from a sass bug. Stupidly pg 
 
 i wonder whether the error appears in the class definition of the html code above.
 
+the problem was in the theme. if the theme is not ok then deployments will not work.
 
