@@ -5,7 +5,7 @@ hide_hero: true
 
 ## Pages
 
-A page is a fixed page that contains static information. 
+A page is a fixed page that contains static information. Pages are used for generic information.
 
 ## Blog Posts
 
