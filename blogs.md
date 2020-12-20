@@ -32,7 +32,7 @@ categories:
 
 Posts without this preamble will receive a notification. 
 
-Categories MUST be a YAML list.
+Categories MUST be a YAML list. Otherwise there will be trouble.
 
 ## Projects
 
