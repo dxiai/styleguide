@@ -40,6 +40,9 @@ $$
 \sum_{1}^{n}{foo_n}
 
 $$
+
+No mathjax support in our theme. This needs fixing the theme to include the mathjax cdn.
+
 ```markdown
 Syntax highlighted code block
 
