@@ -24,6 +24,7 @@ The following chunk checks the different types of links and information that we 
 <p class="alert alert-warning">hello warning</p>
 
 <p class="btn btn-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
+<p class="button is-primary"><i class="fa fa-lg fa-file-o"></i> This should be a button</p>
 
 I wonder whether the error appears in the class definition of the html code above.
 
