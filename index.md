@@ -15,7 +15,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [link other page](other_index.md){: .btn.btn-primary}
 
-Note that just like in moodle, css attribute work only with links.
+Note that css attribute work only with links. However, we should not use them, because moodle markdown does not render them, just like github markdown. having such links is only useful for resources that are confied to a page. 
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
 
