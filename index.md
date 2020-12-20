@@ -1,10 +1,11 @@
 ---
+title: DxI Temporary Pages
 hero_height: is-large
 hide_navigation: true
 hero_darken: true
 ---
 
-## DXI TESTING
+## Introduction
 
 This should be a bulma style page... not sure why it does not show.
 
