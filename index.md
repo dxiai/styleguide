@@ -25,9 +25,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 > A simple quote
 
-<p class="notification is-primary" markdown=1> 
+<p class="alert alert-warning" markdown=1> 
 
-a quote as a warning. This would be awesome. This is not really working for us :( This quote *should* be handled correctly
+a quote as a warning. This would be awesome. This is not really working for us :( This quote *should* be handled correctly. this is achieved by the `markdown=1` attribute, which surprisingly also works in moodle!
 
 </p>
 
