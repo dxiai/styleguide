@@ -13,8 +13,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Web-pages are more complex than normal documentation on github, there are a few tweaks available: 
 
 [Alerts and Buttons](alerts.md){: .btn.btn-primary}
+
 [Formula](mathjax.md){: .btn.btn-primary}
+
 [Blogs and Pages](blogs.md){: .btn.btn-primary}
+
 [Automation](automation.md){: .btn.btn-primary}
 
 This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
