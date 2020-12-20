@@ -42,8 +42,8 @@ Moodle uses fontawesome 4.
 
 Out theme uses fontawesome 5 or 6.
 
-<p class="button is-primary"><i class="fa fa-lg fa-file"></i> This should be a button</p>
+<p class="button is-primary"><i class="fa fa-lg fa-file">&nbsp;</i> This should be a button</p>
 
-We can have special Buttons directly in markdown:\
+We can have special Buttons directly in markdown:
 
-[Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-lf fa-home"/> &nbsp; Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}

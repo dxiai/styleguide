@@ -21,3 +21,5 @@ Moodle supports inline mathJax with diverting markers. We needs to find out if w
 ### Jupyter Lab Support 
 
 Jupyer Lab uses a vanilla coniguration of MathJax. Which is nice, so all code will just work. 
+
+[<i class="fa fa-lf fa-home"/> &nbsp; Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
