@@ -23,7 +23,7 @@ This page is a markdown tutorial, because we need it for testing. It happens tha
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-> A simple quote
+> A simple quote, which does not work in moodle.
 
 <p class="alert alert-warning" markdown=1> 
 
