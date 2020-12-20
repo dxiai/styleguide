@@ -2,6 +2,7 @@ remote_theme: dxiai/dxiai-theme
 
 title: dxi.ai
 
+permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num"
 
