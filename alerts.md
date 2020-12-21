@@ -17,9 +17,17 @@ It seems that some information has been restricted from a sass bug. Stupidly pg 
 
 The following chunk checks the different types of links and information that we have in our Moodle content, so we can move it into github as soon as we can. 
 
-- Alerts are used to highlight sections of contents, where primary stands for definitions, info general highlights, warning potential elements of errors, danger points to misuse. Success stands for best practices. 
+- Alerts are used to highlight sections of contents. There are four types of colors used throughout our documents: 
 
-- Buttons are used for linking resources. Success means other pages, primary means data. The file icon indicates an internal link, the download icon is used with data, and the link, or export icon is used with external links.
+  - `primary` stands for definitions, 
+  - `info` indicates general highlights,
+  - `warning` shows potential causes of errors, 
+  - `danger` points to misuse, and 
+  - `success` stands for best practices.
+
+- Buttons are used for linking resources. 
+  - `success`refers to other pages, 
+  - `primary` means data. 
 
 <p class="alert alert-warning">hello warning</p>
 
@@ -34,17 +42,17 @@ Moodle folks support `markdown=1` but not `markdown="1"`. Moodle will then start
 
 # Buttons
 
-We use buttons to highlight important links, such as pointers to subchapters.
+We use buttons to highlight important links, such as pointers to subchapters. For buttons and alerts we have a smal compatibility layer for bulma so we can use bootstrap classes. This makes it easier to load the same markdown in moodle.
 
-Moodle uses fontawesome 4.
+Moodle uses fontawesome 4 and we should use these icons. 
 
-<p class="btn btn-primary"><i class="fa fa-file-o"></i> This should be a button</p>
+<p class="btn btn-primary"><i class="fa fa-file-o"></i> This is a button</p>
 
-Out theme uses fontawesome 5 or 6.
+The initial theme uses fontawesome 5, but we switched it back to 4 to be as compatible to our moodle theme as possible.
 
-<p class="button is-primary"><i class="fa fa-file"></i> This should be a button</p>
+<p class="button is-primary"><i class="fa fa-file"></i> This is another button</p>
 
-We can have special Buttons directly in markdown as shown below. It is important to remember that **Moodle** does not allow such trickery. Thus, we can use only the above strategy for course material.
+We can have special Buttons directly in markdown as shown below. It is important to remember that **Moodle** does not allow such trickery. Thus, we can use only the above strategy for course material. The following example will only work on dxi.ai webpages.
 
 ```markdown
 [<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
