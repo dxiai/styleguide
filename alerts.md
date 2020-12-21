@@ -47,11 +47,11 @@ Out theme uses fontawesome 5 or 6.
 We can have special Buttons directly in markdown as shown below. It is important to remember that **Moodle** does not allow such trickery. Thus, we can use only the above strategy for course material.
 
 ```markdown
-[<i class="fas fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
 ```
 
 Note that css attribute work only with links. However, we should not use them, because moodle markdown does not render them, just like github markdown. having such links is only useful for resources that are confied to a page. 
 
 The result is the following link: 
 
-[<i class="fas fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}

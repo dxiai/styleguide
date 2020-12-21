@@ -6,7 +6,14 @@ hide_navigation: false
 
 ## Introduction
 
-You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. However, this theme does not use github markdown. 
+You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. However, this theme does not use github markdown, but a variant that has some quirks. For the most part this is not really a problem, because these quirks are closer (but not exactly compliant) to Moodle's markdown version. This is probably the major drawback that markdown is not standardise but labels loosely a bunch of formatting rules that are bend and broken across implementations. Yet it is much simpler than typing plain HTML because what I need is too complicated for many WYSIWYG editors.
+
+This style guide provides an overview on the perks of the different dialects that we use in our team.
+
+- github flavoured markdown
+- Moodle Markdown 
+- Jupyter Markdown 
+- "Jekyll" Markdown (karmadown)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
