@@ -11,7 +11,26 @@ Code fragments are enclosed by three grave accents (<code>```</code>) around a c
 
 Markdown can render syntax highlighting for code fragments. It is strongly encouraged to use syntax highlighting whenever possible.
 
-To activate syntax highlighting one has to add a language marker immidiatly after the starting grave accents. For example <code>```R</code> activates the syntax highlighing for the R language.
+To activate syntax highlighting one has to add a language marker immidiatly after the starting grave accents. For example <code>```R</code> activates the syntax highlighing for the R language. The following example illustrates this: 
+
+This markdown code 
+
+<pre>
+```R
+data %>% 
+    mutate(vector = as.numeric(vector)) -> 
+        numData
+```
+</pre>
+
+generates the code fragment below:
+
+```R
+data %>% 
+    mutate(vector = as.numeric(vector)) -> 
+        numData
+```
+
 
 The preamble <code>```javascript</code> activates syntax highlighting for javascript. 
 
@@ -22,7 +41,7 @@ The preamble <code>```javascript</code> activates syntax highlighting for javasc
 
 Technical terms refer to keywords of our programming language, function names, operators, library names etc. These terms often appear in our documentation. To highlight the special role of these terms, we enclose the term with single grave accents (<code>`</code>). 
 
-For example, when we discuss any `tidyverse` modules, we would write <code>`tidyverse`</code> to highlight the special meaning of this term. 
+For example, when we discuss any `tidyverse` modules, we would write <code>`tidyverse`</code> to highlight the technical meaning of the term. 
 
 ### Functions
 
