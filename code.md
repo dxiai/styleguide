@@ -1,5 +1,5 @@
 ---
-hide_hero: true
+hide_hero: false
 title: Code Fragments
 ---
 
