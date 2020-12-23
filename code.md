@@ -17,6 +17,8 @@ This markdown code
 
 <pre>
 ```R
+library(tidyverse)
+
 data %>% 
     mutate(vector = as.numeric(vector)) -> 
         numData
@@ -26,6 +28,8 @@ data %>%
 generates the code fragment below:
 
 ```R
+library(tidyverse)
+
 data %>% 
     mutate(vector = as.numeric(vector)) -> 
         numData
