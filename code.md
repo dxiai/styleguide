@@ -8,10 +8,8 @@ Code fragments appear quite frequemtly on our page. The problem with the site ge
 The following example shows this problem. 
 
 ```
-{% raw %}
-# This code should be just shown
-{{ page.title }}
-{% endraw %}
+{% raw %}# This code should be just shown
+{{ page.title }}{% endraw %}
 ```
 
 One would not expect to get the following result: 
@@ -23,15 +21,10 @@ One would not expect to get the following result:
 
 In order to get the correct results we need to protect the content of the codeblock using the `raw` and `endraw` commands. 
 
-<pre>
-{% raw %}
-# This code should be just shown
-{{ page.title }}
-{% endraw %}
-</pre>
+<p class="alert alert-danger" markdown=1>It is not possible to show conde examples that contain the `raw` and the `endraw` commands!</p>
 
 <p class="alert alert-warning" markdown=1>
-The `raw` element introduces 2 extra line breaks. If these are not wanted, one has to start the first line right after the command and end the code right before the end command. 
+The `raw` command introduces 2 extra line breaks. If these are not wanted, one has to start the first line right after the command and end the code right before the end command. 
 </p>
 
 
