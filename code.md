@@ -21,14 +21,14 @@ One would not expect to get the following result:
 {{ page.title }}
 ```
 
-In order to get the correct results we need to protect the content of the codeblock. 
+In order to get the correct results we need to protect the content of the codeblock using the `raw` and `endraw` commands. 
 
-```
-{% raw %}{% raw %}
+<pre>
+{% raw %}
 # This code should be just shown
 {{ page.title }}
-{% endraw %}{% endraw %}
-```
+{% endraw %}
+</pre>
 
 <p class="alert alert-warning" markdown=1>
 The `raw` element introduces 2 extra line breaks. If these are not wanted, one has to start the first line right after the command and end the code right before the end command. 
@@ -36,6 +36,6 @@ The `raw` element introduces 2 extra line breaks. If these are not wanted, one h
 
 
 ```
-{% raw %}{% raw %}# This code should be just shown
-{{ page.title }}{% endraw %}{% endraw %}
+{% raw %}# This code should be just shown
+{{ page.title }}{% endraw %}
 ```
