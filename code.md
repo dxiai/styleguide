@@ -53,7 +53,9 @@ For example, instead of writing "The `tibble` function" we use the function nota
 
 Jekyll uses the `liquid` transformation language, which is very similar to Moodle's `mustache` syntax for rendering data to HTML. The major difference to Moodle is that `liquid` knows no end and analyses the markdown of the content for `liquid`-commands. For content management this can be helpful at times, but there are some edge cases where this behaviour gets into the way. 
 
-`liquid` has to types of markup syntaxes: the command and the output syntax. The command syntax is used for describing functional areas. Such commands are enclosed by `{% raw %}{% command %}{% endraw%}`. Normally a command comes with an `end`-command, which encloses a logic block. The output syntax encloses some "variable" with double curly brackets such as `{% raw %}{{ variable | data_processing }}{% endraw %}`. As double curly brackets is the variable quotation operator of the `tidyverse` in `R`, we need to be extra careful with this code on the web-page. 
+`liquid` has to types of markup syntaxes: the command and the output syntax. The command syntax is used for describing functional areas. Such commands are enclosed by `{% raw %}{% command %}{% endraw%}`. Normally a command comes with an `end`-command, which encloses a logic block. The output syntax encloses some "variable" with double curly brackets such as `{% raw %}{{ variable | data_processing }}{% endraw %}`. As double curly brackets is the variable quotation operator of the `tidyverse` in `R`, we need to be extra careful with this code on the web-page.
+
+<p class="alert alert-warning" markdown=1>Moodle has no such feature. Therefore, code fragments that are intended for Moodle **must not** include the `raw`-command. </p>
 
 The following example shows this problem. 
 
