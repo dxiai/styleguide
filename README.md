@@ -1,2 +1,3 @@
-# tmppages.github.io
-Drafting the styles for dxiai.github.io
+# dxi Styleguide 
+
+Anleitung zur Gestaltung von Inhalten. 
