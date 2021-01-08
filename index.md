@@ -8,7 +8,7 @@ hide_navigation: false
 
 Zur Bearbeitung und Verwaltung der Inhalte können wir den [Editor von GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) verwenden. Dazu verwenden wir sowohl für die Website als auch unsere Kursmaterialien sog. Markdown Dateien. Dabei müssen wir berücksichtigen, dass weder diese Webseite noch Moodle den GitHub dialekt von Markdown verstehen. Die hier verwendeten Varianten haben ein paar Eigenheiten, die in diesem Styleguide beschrieben werden. In den meisten Fällen wird das kein Problem darstellen, weil es sich um Abweichungen im Detail handelt. Die in diesem Styleguide beschriebenen Techniken zeigen die Vorgehen zur Erstellung von Inhalten für die dxi.ai Web-seite und für unsere Moodle Kurse. 
 
-<p class="alert alert-warning">**Status dieses Dokuments** - Dieser Styleguide wurde ursprünglich auf Englisch geschrieben. Der Rest der Webseite ist auf Deutsch. Wir arbeiten noch an der Übersetzung der einzelnen Seiten.</p>
+<p class="alert alert-warning" markdown=1>**Status dieses Dokuments** - Dieser Styleguide wurde ursprünglich auf Englisch geschrieben. Der Rest der Webseite ist auf Deutsch. Wir arbeiten noch an der Übersetzung der einzelnen Seiten.</p>
 
 ## Warum Markdown
 
