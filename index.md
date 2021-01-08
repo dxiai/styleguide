@@ -4,65 +4,72 @@ hero_height: is-large
 hide_navigation: false
 ---
 
-## Introduction
+## Einleitung
 
-You can use the [editor on GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. However, this theme does not use github markdown, but a variant that has some quirks. For the most part this is not really a problem, because these quirks are closer (but not exactly compliant) to Moodle's markdown version. This is probably the major drawback that markdown is not standardise but labels loosely a bunch of formatting rules that are bend and broken across implementations. Yet it is much simpler than typing plain HTML because what I need is too complicated for many WYSIWYG editors.
+Zur Bearbeitung und Verwaltung der Inhalte können wir den [Editor von GitHub](https://github.com/dxiai/tmppages.github.io/edit/gh-pages/index.md) verwenden. Dazu verwenden wir sowohl für die Website als auch unsere Kursmaterialien sog. Markdown Dateien. Dabei müssen wir berücksichtigen, dass weder diese Webseite noch Moodle den GitHub dialekt von Markdown verstehen. Die hier verwendeten Varianten haben ein paar Eigenheiten, die in diesem Styleguide beschrieben werden. In den meisten Fällen wird das kein Problem darstellen, weil es sich um Abweichungen im Detail handelt. Die in diesem Styleguide beschriebenen Techniken zeigen die Vorgehen zur Erstellung von Inhalten für die dxi.ai Web-seite und für unsere Moodle Kurse. 
 
-This style guide provides an overview on the perks of the different dialects that we use in our team.
+<p class="alert alert-warning">**Status dieses Dokuments** - Dieser Styleguide wurde ursprünglich auf Englisch geschrieben. Der Rest der Webseite ist auf Deutsch. Wir arbeiten noch an der Übersetzung der einzelnen Seiten.</p>
 
-- github flavoured markdown
+## Warum Markdown
+
+Markdown ist viel einfacher als HTML, vor allem wenn ein WYSIWYG Editor das ganze aufbereitet. Ausserdem ist die Versionierung von Markdown sehr viel einfacher und wir können Regeln für die Formatierung und den Stil leichter umsetzen, weil wir nur sehr einfacher Formatierungsregeln haben. 
+
+Markdown wird dann von einem Prozessor in HTML umgewandelt. Bei Moodle kann man zum Beispiel "unformatierten Text" als Markdown interpretieren lassen. Unsere Webseite wird bei jeder Ergänzung im [Inhaltsrepository](https://github.com/dxiai/dxiai.github.io) durch GitHub Pages mit [Jekyll](https://jekyllrb.com/) neu gebaut und anschliessend automatisch veröffentlicht. 
+
+## Zielsetzung 
+
+Dieser Styleguide gibt einen Überblick zu den Eigenheiten der verschiedenen Markdown Dialekte, die wir in unserem Team verwenden. Dazu gehören:
+
+- [GitHub flavoured markdown](https://github.github.com/gfm/)
+- [dxi.ai "Jekyll" Markdown (karmadown)](https://kramdown.gettalong.org/syntax.html)
 - Moodle Markdown 
-- Jupyter Markdown 
-- "Jekyll" Markdown (karmadown)
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-Web-pages are more complex than normal documentation on github, there are a few tweaks available: 
-
-[Alerts and Buttons](alerts.md){: .btn.btn-primary}
-
-[Code Fragments](code.md){: .btn.btn-primary}
-
-[Formula](mathjax.md){: .btn.btn-primary}
-
-[Blogs and Pages](blogs.md){: .btn.btn-primary}
-
-[Automation](automation.md){: .btn.btn-primary}
-
-
-This page is a markdown tutorial, because we need it for testing. It happens that sometimes a deployment runs too fast after a theme release.
+- Jupyter Markdown
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Dieser Abschnitt beinhaltet ein einfaches Markdown Tutorial.
 
-> A simple quote, which does not work in moodle. 
+Es zeigt die Grundprinzipien dieser Formatierungssyntax. Markdown ist eine leichtgewichtige und einfach zu verwendente Formatierungssyntax für Textblöcke. Es beinhaltet verschiedene Konventionen, z.B. für **fetten Text** oder *kursiven Text*.  
+
+> Einrückungen für Zitate zentraler Bestandteil von Markdown, die leider nicht von Moodle unterstützt werden. 
 
 
 ```markdown
-Syntax highlighted code block
+Dieser Codeblock hat eine Syntaxhervorhebung.
 
-# Header 1
-## Header 2
-### Header 3
+# Überschrift 1
+## Überschrift 2
+### Überschrift 3
 
-- Bulleted
-- List
+- Punkte
+- Liste
 
-1. Numbered
-2. List
+1. Nummerierte
+2. Liste
 
-**Bold** and _Italic_ and `Code` text
+**Fett** und _Kursiv_ sowie `Code` Text.
 
-[Link](url) and ![Image](src)
+Ein [Link](url) und ein ![Bild](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Mehr Details zum [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Weitere Themen
+
+Webseiten sind komplexer als die Dokumentation auf Github festhält. Das gilt vor Allem für Lernmaterialien, die verschiedene Hervorhebungen haben. Dazu zählen die folgenden Gestaltungselemente. 
+
+[Warnungen und Buttons](alerts.md){: .btn.btn-primary}
+
+[Code Fragmente](code.md){: .btn.btn-primary}
+
+[Formeln](mathjax.md){: .btn.btn-primary}
+
+[Blogs und Seiten](blogs.md){: .btn.btn-primary}
+
+[Automatisierung](automation.md){: .btn.btn-primary}
+
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dxiai/tmppages.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Diese Webseite verwendet für das Layout und Formatirungen ein angepasstes [Jekyll Theme](https://github.com/dxiai/dxiai-theme). Dieses Theme sollte für alle Projekte verwendet werden. Änderungsvorschläge am Theme sollten per [Issue](https://github.com/dxiai/dxiai-theme/issues) angefordert werden.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
