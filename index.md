@@ -31,7 +31,7 @@ Dieser Abschnitt beinhaltet ein einfaches Markdown Tutorial.
 
 Es zeigt die Grundprinzipien dieser Formatierungssyntax. Markdown ist eine leichtgewichtige und einfach zu verwendente Formatierungssyntax für Textblöcke. Es beinhaltet verschiedene Konventionen, z.B. für **fetten Text** oder *kursiven Text*.  
 
-> Einrückungen für Zitate zentraler Bestandteil von Markdown, die leider nicht von Moodle unterstützt werden. 
+> Einrückungen für Zitate zentraler Bestandteile von Markdown, die leider nicht von Moodle unterstützt werden. 
 
 
 ```markdown
