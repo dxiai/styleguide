@@ -3,19 +3,7 @@ title: Alerts and Buttons
 hide_hero: true
 ---
 
-A teaser text can be included at the top. 
-
 # Alerts
-
-This page should have a header but no hero information
-
-I wonder if a force deployment is possible. This pages is supposed to be almost empty. ventually we should have some information by now. I wonder what the problem is. and why this deployment takes so long.
-
-This page should get immediately updated. More or less at least
-
-It seems that some information has been restricted from a sass bug. Stupidly pg paged did not report such error. 
-
-The following chunk checks the different types of links and information that we have in our Moodle content, so we can move it into github as soon as we can. 
 
 - Alerts are used to highlight sections of contents. There are four types of colors used throughout our documents: 
 
@@ -55,11 +43,11 @@ The initial theme uses fontawesome 5, but we switched it back to 4 to be as comp
 We can have special Buttons directly in markdown as shown below. It is important to remember that **Moodle** does not allow such trickery. Thus, we can use only the above strategy for course material. The following example will only work on dxi.ai webpages.
 
 ```markdown
-[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/styleguide/){: .btn.btn-success}
 ```
 
 Note that css attribute work only with links. However, we should not use them, because moodle markdown does not render them, just like github markdown. having such links is only useful for resources that are confied to a page. 
 
 The result is the following link: 
 
-[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/styleguide/){: .btn.btn-success}

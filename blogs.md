@@ -43,6 +43,10 @@ tags:
 
 **Achtung:** Die Tags müssen als YAML-Liste erfasst werden, selbst wenn es sich nur um ein einzelnes Tag handelt. Sind die Tags keine Liste, dann bricht das Layout.
 
+<div class="alert alert-warning">Ein Blog-Beitrag darf nicht mit einer Überschrift anfangen, denn sonst erscheint kein Teaser-Text auf der Startseite.</div>
+
+Der erste Absatz von Blogbeiträgen wird automatisch als *Teaser-Text* übernommen. Dieser Text **muss** ein Absatz sein. Jede andere Information am Anfang eines Blogbeitrags führt dazu, dass nur der Titel auf den Übersichtsseiten dargestellt wird. 
+
 ## Datenseiten
 
 Datenseiten sind speziell. Diese Seiten beinhalten eine YAML-Datenstruktur, aus der der eigentliche Seiteninhalt erzeugt wird. 

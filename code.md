@@ -102,4 +102,4 @@ The same code in the compressed format.
 {% raw %}# This code should be just shown
 {{ page.title }}{% endraw %}
 ```
-[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/tmppages/){: .btn.btn-success}
+[<i class="fa fa-home"/> Back to Home](https://www.dxi.ai/styleguide/){: .btn.btn-success}
